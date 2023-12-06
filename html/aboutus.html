@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>About Us</title>
+</head>
+<body>
+
+<!-- Include the header -->
+<div id="headerContainer"></div>
+<script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('headerContainer').innerHTML = data;
+        });
+</script>
+
+<!-- Content for the About Us page -->
+<div class="content">
+    <h1>Over Ons</h1>
+    <p>Welkom bij AirPods Store, jouw bestemming voor kwalitatief uitstekende AirPods.</p>
+
+    <p>Bij AirPods.nl verkopen we zowel individuele AirPods als complete sets, met of zonder cases. Onze passie voor het leveren van eersteklas audiobelevingen wordt alleen geëvenaard door onze toewijding aan milieuvriendelijkheid.</p>
+
+    <p>We hebben de milieu-impact van de elektronicabranche waargenomen en beseften de noodzaak van verandering. Veel bedrijven dragen bij aan vervuiling en afval door de levenscyclus van hun producten. Als reactie hierop zetten we ons in om het verschil te maken door milieuvriendelijke methodes toe te passen in verschillende aspecten van ons bedrijf.</p>
+
+    <h2>Onze Duurzaamheidsinitiatieven</h2>
+    <ul>
+        <li><strong>Recyclebare Verpakking:</strong> We gebruiken recyclebare materialen voor onze productverpakking om afval te minimaliseren.</li>
+        <li><strong>Product Recycling Programma:</strong> Heb je genoeg van je AirPods? Lever je oude AirPods in tegen een marktconform bedrag, en wij recyclen ze verantwoord om elektronisch afval te verminderen.</li>
+        <li><strong>Energiezuinige Bedrijfsvoering:</strong> Onze faciliteiten worden aangedreven door energie-efficiënte methoden.</li>
+        <li><strong>Elektrische voertuigen:</strong> Onze voertuigen rijden volledig op zonne-energie!</li>
+    </ul>
+</div>
+
+
+</body>
+</html>
