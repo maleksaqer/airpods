@@ -167,3 +167,11 @@ body {
 #mySlidesFade {
     margin-left: auto;
 }
+.pods {
+  width: 200px;
+  height: 210px;
+  object-fit: cover;
+  top:140px;
+  position: absolute;
+left: 20px;
+}
